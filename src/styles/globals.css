@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: 248 250 252;
+  --color-foreground: 15 23 42;
+  --color-surface: 255 255 255;
+  --color-muted: 100 116 139;
+  --color-border: 203 213 225;
+  --color-accent: 14 116 144;
+  --color-success: 22 101 52;
+  --color-danger: 185 28 28;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: rgb(var(--color-background));
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  font-feature-settings:
+    'rlig' 1,
+    'calt' 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
