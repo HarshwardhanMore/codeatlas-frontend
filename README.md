@@ -17,7 +17,7 @@ This repository owns the browser application only. It includes:
 - Typed frontend API clients.
 - Shared UI primitives, layout components, and feedback states.
 
-Backend APIs, database access, repository scanning, provider OAuth, and OpenRouter calls are owned by `../codeatlas-backend`.
+Backend APIs, database access, repository scanning, provider OAuth, and OpenRouter calls are owned by the separate `codeatlas-backend` repository.
 
 ## Tech Stack
 

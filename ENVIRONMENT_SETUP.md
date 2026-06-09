@@ -27,7 +27,6 @@ nvm use
 Install dependencies:
 
 ```bash
-cd /home/harsh/Documents/Personal/codeatlas/codeatlas-frontend
 npm install
 ```
 
@@ -36,7 +35,6 @@ npm install
 Create a local frontend environment file:
 
 ```bash
-cd /home/harsh/Documents/Personal/codeatlas/codeatlas-frontend
 cp .env.example .env.local
 ```
 
